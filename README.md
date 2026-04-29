@@ -24,14 +24,14 @@ Hospital readmission within 30 days is a key quality-of-care metric, monitored b
 - **Class imbalance**: ~89:11 ratio. Baseline approach with `class_weight='balanced'`; sample weights by patient and SMOTE explored as ablations.
 
 ## Project structure
-
+```
 diabetes-readmission-prediction/
 ├── data/raw/         # Source CSVs (gitignored)
 ├── notebooks/
 │   └── 01_EDA.ipynb  # Exploratory data analysis
 ├── src/              # Reusable code (planned)
 └── requirements.txt
-
+```
 ## Status
 
 🟡 In progress — currently in exploratory data analysis phase.
