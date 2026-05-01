@@ -25,7 +25,8 @@ Hospital readmission within 30 days is a key quality-of-care metric, monitored b
 
 ## Project structure
 
-´´´
+```
+
 diabetes-readmission-prediction/
 ├── data/raw/         # Source CSVs (gitignored)
 ├── notebooks/
@@ -33,7 +34,7 @@ diabetes-readmission-prediction/
 ├── src/              # Reusable code (planned)
 └── requirements.txt
 
-´´´
+```
 ## Status
 
 🟢 EDA complete — see [notebooks/01_EDA.ipynb](notebooks/01_EDA.ipynb).
